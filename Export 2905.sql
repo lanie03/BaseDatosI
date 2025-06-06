@@ -26,7 +26,7 @@ DROP TABLE IF EXISTS `barbero`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `barbero` (
   `BarberoID` int NOT NULL AUTO_INCREMENT,
-  `NombreID` varchar(100) DEFAULT NULL,
+  `Nombre` varchar(100) DEFAULT NULL,
   `Telefono` int DEFAULT NULL,
   `Correo` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`BarberoID`)
